@@ -9,8 +9,7 @@ import model.entities.Seller;
 
 public class Program {
 	public static void main(String[] args) {
-		Department obj = new Department(1, "Books");
-		
+		System.out.println("=== TETE1: Seller findById ===");
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
 		Seller seller = sellerDao.findById(3);
